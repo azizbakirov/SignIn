@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login and Register</title>
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <!-- Login -->
+        <div class="login active">
+          <div class="bg">
+            <div class="login pd">
+              <div class="logo">
+                <img src="/img/Frame 13.png" alt="logo" />
+              </div>
+              <p class="title">
+                Artificial Intelligence giving you travel recommendations
+              </p>
+              <p class="desc">Welcome Back, Please login to your account</p>
+              <form action="">
+                <p class="inp">Email</p>
+                <input
+                  class="inputs"
+                  type="text"
+                  placeholder="robert.langster@gmail.com"
+                />
+                <p class="inp">Password</p>
+                <input
+                  id="pass_login"
+                  class="inputs"
+                  type="password"
+                  placeholder="Password"
+                />
+                <div class="check">
+                  <div class="cheks">
+                    <input type="checkbox" id="chek" />
+                    <label class="chak_lable" for="chek">Remember me</label>
+                  </div>
+                  <div>
+                    <a href="#">Forgot password?</a>
+                  </div>
+                </div>
+                <div class="btns">
+                  <button class="logins">Login</button>
+                  <button>Sign Up</button>
+                </div>
+              </form>
+              <div class="social_login">
+                <span class="inf">Or, login with</span>
+                <span>Facebook</span>
+                <span>Linked In</span>
+                <span>Google</span>
+              </div>
+            </div>
+            <div class="image bg">
+              <img src="/img/Illustration.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Sign Up -->
+        <div class="sign">
+          <div class="bg">
+            <div class="sign pd">
+              <div class="logo">
+                <img class="logos" src="/img/Frame 13.png" alt="logo" />
+              </div>
+              <p class="title up">
+                Registration
+              </p>
+              <p class="inp">Name</p>
+              <input
+                class="inputs inp_name"
+                type="text"
+                placeholder="robert.langster"
+              />
+              <p class="inp">Email</p>
+              <input
+                id="inp1"
+                class="inputs"
+                type="text"
+                placeholder="robert.langster@gmail.com"
+              />
+              <p class="inp">Password</p>
+              <input
+                id="inp2"
+                class="inputs"
+                type="password"
+                placeholder="Password"
+              />
+              <p class="inp">Enter the password again</p>
+              <input
+                class="inputs"
+                id="inp3"
+                type="password"
+                placeholder="Password"
+              />
+              <div class="custom-file-upload">
+              
+                <input class="upload" type="file" placeholder="Photo upload" />
+              </div>
+              <div class="btns">
+                <button class="logins">Login</button>
+                <button class="signs">Sign Up</button>
+              </div>
+              <div class="social_login">
+                <span class="inf">Or, login with</span>
+                <span>Facebook</span>
+                <span>Linked In</span>
+                <span>Google</span>
+              </div>
+            </div>
+            <div class="image bg">
+              <img src="/img/register.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Account Page -->
+        <div class="account active">
+          <div class="bg">
+            <div class="acc pd">
+              <div class="acc_img">
+                <img
+                class="upload_img"
+                  src=""
+                  alt="img"
+                />
+              </div>
+              <div class="infos">
+                <p>Name</p>
+                <p class="name">Aziz Bakirov</p>
+                <p>Email</p>
+                <p class="name email_name"></p>
+                <p>Brithday</p>
+                <p class="name date">14.04.2000</p>
+                <p>Password</p>
+                <p class="name password"></p>
+                <button class="logout">Logout</button>
+              </div>
+            </div>
+            <div class="image bg">
+              <img src="/img/succes.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

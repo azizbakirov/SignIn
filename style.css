@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #355b3e;
+}
+.pd {
+  padding: 40px;
+}
+.container {
+  width: 950px;
+  margin: 40px auto;
+}
+
+.bg {
+  display: flex;
+  /* padding: 25px; */
+  background-color: white;
+  border-radius: 20px;
+}
+.logo img {
+  width: 60%;
+}
+.title {
+  margin-top: 35px;
+  font-weight: 600;
+  color: #355b3e;
+}
+.up {
+  margin: 20px 0;
+}
+.desc {
+  font-size: 13px;
+  margin: 20px 0;
+  color: #58745e;
+}
+.inputs {
+  /* margin-top: 5px; */
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #7a857c;
+}
+.inputs:focus {
+  outline: #6c8672;
+}
+.inp {
+  font-size: 13px;
+  margin: 5px 0;
+  font-weight: 500;
+}
+.check {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.chak_lable {
+  margin-left: 5px;
+}
+#chek {
+  background-color: #355b3e;
+  border: 1px solid #355b3e;
+}
+.btns {
+  margin-top: 20px;
+}
+button {
+  cursor: pointer;
+  color: #355b3e;
+  padding: 10px 55px;
+  border: none;
+  border-radius: 10px;
+  margin: 0 1.5px;
+  border: 1px solid #355b3e;
+  background-color: white;
+}
+button:hover {
+}
+.logins {
+  background-color: #355b3e;
+  color: white;
+}
+
+.image {
+  padding: 0;
+}
+.image img {
+  border-radius: 0 20px 20px 0;
+  width: 550px;
+}
+.social_login {
+  margin-top: 35px;
+}
+.inf {
+  color: #58745e;
+  cursor: none;
+}
+.social_login span {
+  font-size: 14px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.active {
+  display: none;
+}
+
+.acc_img {
+  display: flex;
+  justify-content: center;
+}
+.acc_img img {
+  border-radius: 30px;
+  width: 40%;
+}
+
+.acc {
+  color: #6c8672;
+  font-size: 14px;
+}
+
+.infos {
+  margin: 30px 0;
+}
+.name {
+  margin: 10px 0;
+  color: #355b3e;
+  font-weight: 500;
+  font-size: 16px;
+}
+.email {
+  font-size: 15px;
+}
+.logout {
+  position: relative;
+  top: 30px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.upload {
+  margin-top: 15px;
+}
+.upload[type="file"] {
+  /* display: none; */
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 100%;
+}
+.custom-file-upload {
+}
